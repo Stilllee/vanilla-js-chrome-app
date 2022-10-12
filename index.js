@@ -13,8 +13,7 @@
 ✅ ALL function handlers should be INSIDE of "superEventHandler"
 */
 
-const title = document.querySelector(".title");
-const body = document.querySelector("body");
+const title = document.querySelector("h2");
 
 const superEventHandler = {
   mouseEnter: function() {
