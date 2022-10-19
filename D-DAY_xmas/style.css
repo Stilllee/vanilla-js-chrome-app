@@ -1,0 +1,38 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #C30007;
+}
+
+
+
+h1 {
+  font-size: 80px;
+  color: white;
+  text-shadow: 5px 5px 1px #38807F;
+}
+
+h2 {
+  font-size: 60px;
+  background-color: #38807F;
+  text-align: center;
+  width: 610px;
+  height: 100px;
+  padding-top: 10px;
+  border-radius: 60px;
+}
+
+h1:hover {
+  color: #CF9D42;
+  text-shadow: 5px 5px 1px white;
+}
+
+h2:hover {
+  color: white;
+  background-color: #CF9D42;
+  outline: 8px solid white;
+}
