@@ -1,0 +1,15 @@
+.small, .middle, .big {
+  color: white;
+}
+
+.small {
+  background-color: #2E8CD5;
+}
+
+.middle {
+  background-color: #904FAE;
+}
+
+.big {
+  background-color: #EEBC12;
+}
