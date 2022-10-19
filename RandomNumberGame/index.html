@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CHALLENGE - JS Casino</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Random Number Game</h1>
+    <form id="select_num">
+      <label for="generate">Generate a number between 0 and</label>
+      <input required id="generate" type="number" min="0" /><br />
+      <label for="guess">Guess the number:</label>
+      <input required id="guess" type="number" min="0" />
+      <input id="button" type="submit" value="PLAY!" />
+    </form>
+    <p id="choose_num"></p>
+    <span id="result"></span>
+    <script src="src/index.js"></script>
+  </body>
+</html>
